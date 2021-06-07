@@ -6,6 +6,8 @@ IE Titanic utils.
 
 __version__ ="0.1.0"
 
+import pandas as pd
+
 def tokenize(text):
     return text.split()
 
