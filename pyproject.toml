@@ -8,3 +8,7 @@ author = "Oriol Vila Masip"
 author-email = "oriol.vila@student.ie.edu"
 description-file = "README.md"
 requires= ["pandas"]
+
+[tool.flit.entrypoints."console_scripts"]
+ie_tokenize = "ie_utils.__main__:main"
+
