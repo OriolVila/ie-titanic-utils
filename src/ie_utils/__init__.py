@@ -9,7 +9,9 @@ __version__ = "0.1.0"
 import pandas as pd
 
 
-def tokenize(text):
+def tokenize(text, lower=False):
+    if lower:
+        text=text.lower()
     return text.split()
 
 
