@@ -9,7 +9,8 @@ author-email = "oriol.vila@student.ie.edu"
 description-file = "README.md"
 requires= ["pandas",
     "click"
-    #"flask" if not added in the requirements]
+    #"flask" if not added in the requirements
+    ]
 
 [tool.flit.entrypoints."console_scripts"]
 ie_tokenize = "ie_utils.__main__:main"
